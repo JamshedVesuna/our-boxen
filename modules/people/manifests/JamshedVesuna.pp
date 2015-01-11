@@ -17,9 +17,13 @@ class people::jamshedvesuna {
   include dropbox
   include keepassx
   include macvim
-  include virtualbox
-  include python
   include wget
+
+  include osx::global::tap_to_click
+  include osx::dock::clear_dock
+  include osx::dock::autohide
+  include osx::finder::show_hidden_files
+  include osx::software_update
 
   package {
     [
@@ -28,8 +32,14 @@ class people::jamshedvesuna {
       'ctags',
       'the_silver_searcher',
     ]:
-      ensure => installed,
-      provider => 'homebrew';
+				ensure => installed,
+				provider => 'homebrew';
+    [
+      'cronos',
+      'simple-crypt',
+    ]:
+				ensure => installed,
+				provider => 'pip';
   }
 
   git::config::global {
