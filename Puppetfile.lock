@@ -146,7 +146,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.9)
+    virtualbox (1.0.13)
 
 GITHUBTARBALL
   remote: boxen/puppet-wget
@@ -211,7 +211,7 @@ DEPENDENCIES
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   vagrant (>= 0)
-  virtualbox (>= 0)
+  virtualbox (= 1.0.13)
   wget (>= 0)
   xquartz (= 1.2.1)
   zsh (>= 0)

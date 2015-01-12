@@ -13,10 +13,12 @@ class people::jamshedvesuna {
       require => File[$scripts];
   }
 
-  include spotify
   include dropbox
   include keepassx
   include macvim
+  include spotify
+  include vagrant
+  include virtualbox
   include wget
 
   include osx::dock::autohide
