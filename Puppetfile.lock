@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: JamshedVesuna/puppet-osx
+  specs:
+    osx (2.8.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-bash
   specs:
     bash (1.2.0)
@@ -87,11 +92,6 @@ GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-osx
-  specs:
-    osx (2.8.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -199,7 +199,7 @@ DEPENDENCIES
   nginx (= 1.4.4)
   nodejs (= 4.0.0)
   openssl (= 1.0.0)
-  osx (>= 0)
+  osx (= 2.8.1)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   python (>= 0)
