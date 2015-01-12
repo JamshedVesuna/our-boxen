@@ -22,7 +22,7 @@ class people::jamshedvesuna {
   include osx::global::tap_to_click
   include osx::dock::clear_dock
   include osx::dock::autohide
-  # include osx::finder::show_hidden_files
+  include osx::finder::show_hidden_files
   include osx::software_update
 
   package {
