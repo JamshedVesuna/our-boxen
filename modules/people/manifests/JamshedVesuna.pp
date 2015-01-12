@@ -19,10 +19,10 @@ class people::jamshedvesuna {
   include macvim
   include wget
 
-  include osx::global::tap_to_click
-  include osx::dock::clear_dock
   include osx::dock::autohide
+  include osx::dock::disable_dashboard
   include osx::finder::hide_hidden_files
+  include osx::global::tap_to_click
   include osx::software_update
 
   package {
