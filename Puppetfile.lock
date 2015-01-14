@@ -205,7 +205,7 @@ DEPENDENCIES
   python (>= 0)
   repository (= 2.3.0)
   ruby (= 8.1.7)
-  seil (>= 0)
+  seil (= 1.0.2)
   skype (>= 0)
   spotify (>= 0)
   stdlib (= 4.2.1)

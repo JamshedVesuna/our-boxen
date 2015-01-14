@@ -16,6 +16,7 @@ class people::jamshedvesuna {
   include dropbox
   include keepassx
   include macvim
+  include seil
   include skype
   include spotify
   include vagrant
@@ -27,6 +28,7 @@ class people::jamshedvesuna {
   include osx::finder::hide_hidden_files
   include osx::global::tap_to_click
   include osx::software_update
+
 
   package {
     [
