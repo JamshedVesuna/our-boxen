@@ -16,6 +16,7 @@ class people::jamshedvesuna {
   include dropbox
   include keepassx
   include macvim
+  include skype
   include spotify
   include vagrant
   include virtualbox
