@@ -33,6 +33,13 @@ class people::jamshedvesuna {
     version => '1.9.3'
   }
 
+  $version = "1.9.3"
+  ruby_gem { "tugboat for ${version}":
+    gem          => 'tugboat',
+    version      => '~> 0.0.7',
+    ruby_version => $version,
+  }
+
   package {
     [
       'awscli',
