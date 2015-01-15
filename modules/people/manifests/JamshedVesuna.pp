@@ -29,6 +29,9 @@ class people::jamshedvesuna {
   include osx::global::tap_to_click
   include osx::software_update
 
+  class { 'ruby::global':
+    version => '1.9.3'
+  }
 
   package {
     [
