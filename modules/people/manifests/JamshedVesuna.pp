@@ -32,9 +32,10 @@ class people::jamshedvesuna {
 
   package {
     [
-      'rdiff-backup',
       'awscli',
       'ctags',
+      'markdown',
+      'rdiff-backup',
       'the_silver_searcher',
     ]:
         ensure => installed,
