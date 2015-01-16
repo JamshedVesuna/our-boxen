@@ -2,8 +2,13 @@ class people::jamshedvesuna {
 
   $home     = "/Users/${::boxen_user}"
   $scripts  = "${home}/scripts"
+  $tmp      = "${home}/tmp"
 
   file { $scripts:
+    ensure  => directory
+  }
+
+  file { $tmp:
     ensure  => directory
   }
 
