@@ -139,6 +139,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tmux
+  specs:
+    tmux (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (3.2.2)
@@ -210,6 +215,7 @@ DEPENDENCIES
   spotify (>= 0)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
+  tmux (>= 0)
   vagrant (>= 0)
   virtualbox (= 1.0.13)
   wget (>= 0)

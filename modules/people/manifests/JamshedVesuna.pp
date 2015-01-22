@@ -24,6 +24,7 @@ class people::jamshedvesuna {
   include seil
   include skype
   include spotify
+  include tmux
   include vagrant
   include virtualbox
   include wget
