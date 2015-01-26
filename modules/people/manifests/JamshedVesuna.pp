@@ -63,6 +63,7 @@ class people::jamshedvesuna {
       'ipython',
       'simple-crypt',
       'tweepy',
+      'virtualenv',
     ]:
         ensure => installed,
         provider => 'pip';
