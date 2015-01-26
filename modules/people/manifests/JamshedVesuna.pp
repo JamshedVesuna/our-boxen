@@ -61,6 +61,7 @@ class people::jamshedvesuna {
       'cronos',
       'simple-crypt',
       'ipython',
+      'ipdb',
     ]:
         ensure => installed,
         provider => 'pip';
