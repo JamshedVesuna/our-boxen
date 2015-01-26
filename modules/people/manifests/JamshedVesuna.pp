@@ -59,9 +59,10 @@ class people::jamshedvesuna {
         provider => 'homebrew';
     [
       'cronos',
-      'simple-crypt',
-      'ipython',
       'ipdb',
+      'ipython',
+      'simple-crypt',
+      'tweepy',
     ]:
         ensure => installed,
         provider => 'pip';
