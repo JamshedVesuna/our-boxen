@@ -61,6 +61,7 @@ class people::jamshedvesuna {
       'cronos',
       'ipdb',
       'ipython',
+      'matplotlib',
       'numpy',
       'scikit-learn',
       'scipy',
