@@ -62,6 +62,7 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 github "bash"
+github "caffeine"
 github "ctags"
 github "dropbox"
 github "flux"
