@@ -24,7 +24,7 @@ class people::jamshedvesuna {
   include macvim
   include seil
   include skype
-  include spectacle
+  /*include spectacle*/
   include spotify
   include tmux
   include vagrant
