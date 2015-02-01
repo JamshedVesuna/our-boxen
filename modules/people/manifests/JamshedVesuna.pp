@@ -60,6 +60,7 @@ class people::jamshedvesuna {
         provider => 'homebrew';
     [
       'cronos',
+      'dropbox',
       'ipdb',
       'ipython',
       'matplotlib',
