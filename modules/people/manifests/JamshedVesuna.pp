@@ -55,6 +55,7 @@ class people::jamshedvesuna {
       'markdown',
       'rdiff-backup',
       'the_silver_searcher',
+      'nmap',
     ]:
         ensure => installed,
         provider => 'homebrew';
