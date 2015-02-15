@@ -34,6 +34,7 @@ class people::jamshedvesuna {
   include osx::dock::autohide
   include osx::dock::disable_dashboard
   include osx::finder::hide_hidden_files
+  include osx::global::expand_save_dialog
   include osx::global::tap_to_click
   include osx::software_update
 
