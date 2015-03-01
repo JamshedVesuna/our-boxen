@@ -45,7 +45,7 @@ class people::jamshedvesuna {
   $version = "1.9.3"
   ruby_gem { "tugboat for ${version}":
     gem          => 'tugboat',
-    version      => '~> 0.0.7',
+    version      => '~> 0.2.0',
     ruby_version => $version,
   }
 
