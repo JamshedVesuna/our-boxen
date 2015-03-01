@@ -11,7 +11,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.10.1)
+    boxen (3.10.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
@@ -199,8 +199,7 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
-  bash (>= 0)
-  boxen (= 3.10.1)
+  boxen (= 3.10.2)
   brewcask (= 0.0.4)
   chrome (>= 0)
   cmake (>= 0)
