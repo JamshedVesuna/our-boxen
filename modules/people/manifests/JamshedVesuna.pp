@@ -23,6 +23,7 @@ class people::jamshedvesuna {
   include keepassx
   include macvim
   include seil
+  include seil::login_item
   include skype
   /*include spectacle*/
   include spotify
@@ -37,6 +38,10 @@ class people::jamshedvesuna {
   include osx::global::expand_save_dialog
   include osx::global::tap_to_click
   include osx::software_update
+
+  seil::bind { 'keyboard bindings':
+    mappings => { 'capslock' => 53 }
+  }
 
   class { 'ruby::global':
     version => '1.9.3'
