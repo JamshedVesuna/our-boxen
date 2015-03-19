@@ -72,6 +72,7 @@ class people::jamshedvesuna {
       'ipython',
       'matplotlib',
       'numpy',
+      'pep8',
       'scikit-learn',
       'scipy',
       'simple-crypt',
