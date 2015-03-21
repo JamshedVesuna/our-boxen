@@ -18,7 +18,6 @@ class people::jamshedvesuna {
       require => File[$scripts];
   }
 
-  include caffeine
   include dropbox
   include keepassx
   include macvim
