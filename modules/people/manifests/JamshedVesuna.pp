@@ -57,10 +57,11 @@ class people::jamshedvesuna {
     [
       'awscli',
       'ctags',
+      'go',
       'markdown',
+      'nmap',
       'rdiff-backup',
       'the_silver_searcher',
-      'nmap',
     ]:
         ensure => installed,
         provider => 'homebrew';
