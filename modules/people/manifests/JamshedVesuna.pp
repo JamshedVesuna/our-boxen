@@ -1,5 +1,12 @@
 class people::jamshedvesuna {
 
+  /* Notes:
+      Other programs installed:
+          * Slack
+
+      Other:
+          * altoduo dotfiles
+  */
   $home     = "/Users/${::boxen_user}"
   $scripts  = "${home}/scripts"
   $tmp      = "${home}/tmp"
