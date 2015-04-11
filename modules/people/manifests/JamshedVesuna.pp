@@ -2,7 +2,6 @@ class people::jamshedvesuna {
 
   /* Notes:
       Other programs installed:
-          * Slack
 
       Other:
           * altoduo dotfiles
@@ -25,6 +24,7 @@ class people::jamshedvesuna {
       require => File[$scripts];
   }
 
+  include brewcask
   include dropbox
   include keepassx
   include macvim
@@ -72,6 +72,11 @@ class people::jamshedvesuna {
     ]:
         ensure => installed,
         provider => 'homebrew';
+    [
+      'slack',
+    ]:
+      ensure => installed,
+      provider => 'brewcask';
     [
       'cronos',
       'dropbox',
