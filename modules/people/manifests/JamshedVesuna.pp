@@ -82,6 +82,7 @@ class people::jamshedvesuna {
       'dropbox',
       'ipdb',
       'ipython',
+      'joblib',
       'matplotlib',
       'numpy',
       'pep8',
