@@ -83,6 +83,7 @@ class people::jamshedvesuna {
       'ipdb',
       'ipython',
       'joblib',
+      'line_profiler',
       'matplotlib',
       'numpy',
       'pep8',
