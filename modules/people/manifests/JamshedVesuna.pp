@@ -31,7 +31,7 @@ class people::jamshedvesuna {
   include seil
   include seil::login_item
   include skype
-  /*include spectacle*/
+  include spectacle
   include spotify
   include tmux
   include vagrant
