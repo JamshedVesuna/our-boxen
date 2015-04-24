@@ -2,9 +2,9 @@ class people::jamshedvesuna {
 
   /* Notes:
       Other programs installed:
+          * Spectacle
 
       Other:
-          * altoduo dotfiles
   */
   $home     = "/Users/${::boxen_user}"
   $scripts  = "${home}/scripts"
