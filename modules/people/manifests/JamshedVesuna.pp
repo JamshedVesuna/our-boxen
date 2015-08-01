@@ -80,6 +80,7 @@ class people::jamshedvesuna {
     [
       'cronos',
       'dropbox',
+      'grip',
       'ipdb',
       'ipython',
       'joblib',
