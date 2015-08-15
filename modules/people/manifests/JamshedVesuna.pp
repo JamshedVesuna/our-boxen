@@ -25,6 +25,7 @@ class people::jamshedvesuna {
   }
 
   include brewcask
+  include cmake
   include dropbox
   include keepassx
   include macvim

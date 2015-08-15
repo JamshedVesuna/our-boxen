@@ -24,6 +24,11 @@ GITHUBTARBALL
     chrome (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-cmake
+  specs:
+    cmake (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-ctags
   specs:
     ctags (1.0.0)
@@ -198,6 +203,7 @@ DEPENDENCIES
   boxen (= 3.10.1)
   brewcask (= 0.0.4)
   chrome (>= 0)
+  cmake (>= 0)
   ctags (>= 0)
   dnsmasq (= 2.0.1)
   dropbox (>= 0)

@@ -63,6 +63,7 @@ github "xquartz",     "1.2.1"
 
 github "bash"
 github "chrome"
+github "cmake"
 github "ctags"
 github "dropbox"
 github "flux"
