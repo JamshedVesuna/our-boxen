@@ -2,7 +2,6 @@ class people::jamshedvesuna {
 
   /* Notes:
       Other programs installed:
-          * Spectacle
 
       Other:
   */
