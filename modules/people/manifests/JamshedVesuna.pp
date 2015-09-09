@@ -24,6 +24,7 @@ class people::jamshedvesuna {
   }
 
   include brewcask
+  include chrome
   include cmake
   include dropbox
   include keepassx
