@@ -4,6 +4,7 @@ class people::jamshedvesuna {
       Other programs installed:
 
       Other:
+        Macvim updated to 7.4.769: "brew upgrade mvim"
   */
   $home     = "/Users/${::boxen_user}"
   $scripts  = "${home}/scripts"
