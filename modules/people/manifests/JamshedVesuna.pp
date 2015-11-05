@@ -36,7 +36,7 @@ class people::jamshedvesuna {
   include spectacle
   include spotify
   include tmux
-  include vagrant
+  /*include vagrant*/
   include virtualbox
   include wget
 
@@ -61,6 +61,10 @@ class people::jamshedvesuna {
 
   class { 'ruby::global':
     version => '1.9.3'
+  }
+
+  class { 'vagrant':
+    version => '1.7.4'
   }
 
   $version = "1.9.3"
