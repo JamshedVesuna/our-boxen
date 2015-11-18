@@ -95,6 +95,7 @@ class people::jamshedvesuna {
     [
       'cronos',
       'dropbox',
+      'eve',
       'grip',
       'ipdb',
       'ipython',
