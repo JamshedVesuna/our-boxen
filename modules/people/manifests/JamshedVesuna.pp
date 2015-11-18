@@ -82,6 +82,7 @@ class people::jamshedvesuna {
       'markdown',
       'nmap',
       'protobuf',
+      'python3',
       'rdiff-backup',
       'the_silver_searcher',
     ]:
