@@ -79,6 +79,7 @@ class people::jamshedvesuna {
       'awscli',
       'ctags',
       'go',
+      'iperf',
       'markdown',
       'nmap',
       'protobuf',
