@@ -107,6 +107,7 @@ class people::jamshedvesuna {
       'matplotlib',
       'numpy',
       'pep8',
+      'psutil',
       'scikit-learn',
       'scipy',
       'simple-crypt',
