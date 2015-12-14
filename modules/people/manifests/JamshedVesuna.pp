@@ -95,6 +95,7 @@ class people::jamshedvesuna {
       ensure => installed,
       provider => 'brewcask';
     [
+      'celery',
       'cronos',
       'dropbox',
       'eve',
