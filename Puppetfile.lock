@@ -199,6 +199,7 @@ GITHUBTARBALL
     module_data (0.0.4)
 
 DEPENDENCIES
+  bash (>= 0)
   boxen (= 3.11.1)
   brewcask (= 0.0.6)
   chrome (>= 0)
